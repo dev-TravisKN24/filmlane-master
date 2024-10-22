@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmlane - Best Streaming collections</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/filmlane-master/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/filmlane-master/assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="/filmlane-master/index.html" class="logo">
+        <img src="/filmlane-master/assets/images/logo.svg" alt="Filmlane logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">AU</option>
+            <option value="ar">AR</option>
+            <option value="tu">TU</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary">Sign in</button>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="/filmlane-master/index.html" class="logo">
+            <img src="/filmlane-master/assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/filmlane-master/index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Movie</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">TV</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Filmlane</p>
+
+            <h1 class="h1 hero-title">
+              Unlimited <strong>Movie</strong>, TVs Shows, & More.
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">18</div>
+
+                <div class="badge badge-outline">4k</div>
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">War</a>
+
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT128M">128 min</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="btn btn-primary">
+              <ion-icon name="play"></ion-icon>
+
+              <span>Watch now</span>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #UPCOMING
+      -->
+
+      <section class="upcoming">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+              <p class="section-subtitle">Online Streaming</p>
+
+              <h2 id="new-title" class="h2 section-title">New Movies</h2>
+            </div>
+
+            <ul class="filter-list">
+              <li>
+                  <button class="filter-btn" onclick="showContent('movies')">Movies</button>
+              </li>
+              <li>
+                  <button class="filter-btn" onclick="showContent('tvshows')">TV Shows</button>
+              </li>
+              <li>
+                  <button class="filter-btn" onclick="showContent('anime')">Anime</button>
+              </li>
+          </ul>
+          </div>
+
+<!-- movies -->
+
+          <ul id="movies" class="movies-list  has-scrollbar" style="display: flex;">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="upcoming-movies/upcoming-movie-details-deadpool.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-1.png" alt="Deadpool & Wolverine movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="upcoming-movies/upcoming-movie-details-deadpool.html">
+                    <h3 class="card-title">Deadpool & Wolverine</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">128 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="upcoming-movies/upcoming-movie-details-dr-strange.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-2.png"
+                      alt="Doctor Strange in the Multiverse of Madness movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="upcoming-movies/upcoming-movie-details-dr-strange.html">
+                    <h3 class="card-title">Doctor Strange in the Multiverse of Madness</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">126 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="upcoming-movies/upcoming-movie-details-avatar-2.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-3.png" alt="Avatar: The Way of Water movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="upcoming-movies/upcoming-movie-details-avatar-2.html">
+                    <h3 class="card-title">Avatar: The Way of Water</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT192M">192 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="upcoming-movies/upcoming-movie-details-barbie.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-4.png"
+                      alt="Barbie">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="upcoming-movies/upcoming-movie-details-barbie.html">
+                    <h3 class="card-title">Barbie</h3>
+                  </a>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT107M">114 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+<!-- tv shows -->
+
+          <ul id="tvshows" class="movies-list  has-scrollbar" style="display: none;">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="upcoming-series/upcoming-tv-penguin.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-5.png" alt="The Penguin poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="upcoming-series/upcoming-tv-penguin.html">
+                    <h3 class="card-title">The Penguin</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">8 Episodes</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">55 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-series/upcoming-tv-kaos.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/upcoming-6.png"
+                      alt="Kaos poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-series/upcoming-tv-kaos.html">
+                    <h3 class="card-title">Kaos</h3>
+                  </a>
+
+                  <time datetime="2022">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">8 Episodes</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">42 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-series/upcoming-tv-cobra-kai.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/upcoming-7.png" alt="Cobra Kai poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-series/upcoming-tv-cobra-kai.html">
+                    <h3 class="card-title">Cobra Kai</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">6 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT192M">40 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-series/upcoming-tv-squid-game.html">
+                  <figure class="card-banner">
+                    <img src="/Filmlane-master/assets/images/upcoming-8.png"
+                      alt="Barbie">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-series/upcoming-tv-squid-game.html">
+                    <h3 class="card-title">Squid Game</h3>
+                  </a>
+
+                  <time datetime="2025">2025</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">11 Episodes</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT107M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+<!-- anime -->
+
+          <ul id="anime" class="movies-list  has-scrollbar" style="display: none;">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-anime/upcoming-anime-blue-lock.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/upcoming-9.png" alt="Blue Lock poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-anime/upcoming-anime-blue-lock.html">
+                    <h3 class="card-title">Blue Lock</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">28 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-anime/upcoming-anime-blue-box.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/upcoming-10.png"
+                      alt="Blue Box poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-anime/upcoming-anime-blue-box.html">
+                    <h3 class="card-title">Blue Box</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">1 Season</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">28 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-anime/upcoming-anime-uzumaki.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/upcoming-11.png" alt="Uzumaki poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-anime/upcoming-anime-uzumaki.html">
+                    <h3 class="card-title">Uzumaki</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4 Episodes</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT192M">25 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/upcoming-anime/upcoming-anime-db-daima.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/upcoming-12.png"
+                      alt="Dragon Ball DAIMA">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/upcoming-anime/upcoming-anime-db-daima.html">
+                    <h3 class="card-title">Dragon Ball DAIMA</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">1 Season</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT107M">25 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <div class="service-banner">
+            <figure>
+              <img src="/filmlane-master/assets/images/service-banner.jpg" alt="HD 4K Resolution! only $3.99">
+            </figure>
+
+            <a href="/filmlane-master/assets/images/service-banner.jpg" download class="service-btn">
+              <span>Download</span>
+
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="service-content">
+
+            <p class="service-subtitle">Our Services</p>
+
+            <h2 class="h2 service-title">Download Your Shows Watch Offline.</h2>
+
+            <p class="service-text">
+              Enjoy your favorite movies and TV shows anytime, anywhere. With our easy download feature,
+              you can save content directly to your device and watch offline—perfect for when you're on 
+              the go or without internet access. Never miss a moment of entertainment again!
+            </p>
+
+            <ul class="service-list">
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="tv"></ion-icon>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Enjoy on Your TV.</h3>
+
+                    <p class="card-text">
+                      Take your movie experience to the big screen! Seamlessly stream or
+                      cast your downloaded content directly to your TV for a cinematic viewing experience at home.
+                      Whether you use a smart TV or casting device, enjoying your favorite shows and movies in full HD has never been easier.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="videocam"></ion-icon>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Watch Everywhere.</h3>
+
+                    <p class="card-text">
+                      Stay connected to your entertainment no matter where you are. With our platform, you can access your favorite movies and shows
+                      across all your devices—smartphones, tablets, laptops, and TVs.
+                      Whether you're commuting, traveling, or relaxing at home, your next binge-watch is just a click away.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TOP RATED
+      -->
+
+      <section class="top-rated">
+        <div class="container">
+
+          <p class="section-subtitle">Online Streaming</p>
+
+          <h2 id="rated" class="h2 section-title">Top Rated Movies</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <li>
+              <button class="filter-btn" onclick="showContent('ratedfilms')">Movies</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" onclick="showContent('ratedseries')">TV Shows</button>
+            </li>
+
+          </ul>
+
+<!-- Rated Movies-->
+
+          <ul id="ratedfilms" class="rated-movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-shawshank.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-1.png" alt="Shawshank Redemption movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-shawshank.html">
+                    <h3 class="card-title">The Shawshank Redemption</h3>
+                  </a>
+
+                  <time datetime="1994">1994</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">142 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-dark-knight.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-2.png" alt="The Dark Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-dark-knight.html">
+                    <h3 class="card-title">The Dark Knight</h3>
+                  </a>
+
+                  <time datetime="2008">2008</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT104M">152 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-inception.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-3.png" alt="Inception movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-inception.html">
+                    <h3 class="card-title">Inception</h3>
+                  </a>
+
+                  <time datetime="2010">2010</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT106M">148 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-whiplash.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-4.png" alt="Whiplash movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-whiplash.html">
+                    <h3 class="card-title">Whiplash</h3>
+                  </a>
+
+                  <time datetime="2014">2014</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT115M">106 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-the-matrix.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-5.png" alt="The Matrix movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-the-matrix.html">
+                    <h3 class="card-title">The Matrix</h3>
+                  </a>
+
+                  <time datetime="1999">1999</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT176M">136 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-interstellar.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-6.png" alt="Interstellar movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-interstellar.html">
+                    <h3 class="card-title">Interstellar</h3>
+                  </a>
+
+                  <time datetime="2014">2014</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT116M">169 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-saving-private-ryan.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-7.png" alt="Saving Private Ryan movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-saving-private-ryan.html">
+                    <h3 class="card-title">Saving Private Ryan</h3>
+                  </a>
+
+                  <time datetime="1998">1998</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT127M">169 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-movies/rated-movie-details-the-green-mile.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-8.png" alt="The Green Mile movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-movies/rated-movie-details-the-green-mile.html">
+                    <h3 class="card-title">The Green Mile</h3>
+                  </a>
+
+                  <time datetime="1999">1999</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT131M">189 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+<!-- Rated Series -->
+
+          <ul id="ratedseries" class="rated-movies-list" style="display: none;">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-breaking-bad.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-9.png" alt="Breaking Bad poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-breaking-bad.html">
+                    <h3 class="card-title">Breaking Bad</h3>
+                  </a>
+
+                  <time datetime="2013">2013</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">5 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">45 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-the-sopranos.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-10.png" alt="The Sopranos poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-the-sopranos.html">
+                    <h3 class="card-title">The Sopranos</h3>
+                  </a>
+
+                  <time datetime="2007">2007</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">6 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT104M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-game-of-thrones.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-11.png" alt="Game of Thrones poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-game-of-thrones.html">
+                    <h3 class="card-title">Game of Thrones</h3>
+                  </a>
+
+                  <time datetime="2019">2019</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">8 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT106M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-rick-and-morty.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-12.png" alt="Rick and Morty poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-rick-and-morty.html">
+                    <h3 class="card-title">Rick and Morty</h3>
+                  </a>
+
+                  <time datetime="2013 -">2013 -</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">8 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT115M">23 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.1</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-the-office.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-13.png" alt="The Office poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-the-office.html">
+                    <h3 class="card-title">The Office</h3>
+                  </a>
+
+                  <time datetime="2013">2013</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">8 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT176M">22 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-better-call-saul.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-14.png" alt="Better Call Saul poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-better-call-saul.html">
+                    <h3 class="card-title">Better Call Saul</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">6 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT116M">45 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-clarksons-farm.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-15.png" alt="Clarkson's Farm poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-clarksons-farm.html">
+                    <h3 class="card-title">Clarkson's Farm</h3>
+                  </a>
+
+                  <time datetime="2021 -">2021 -</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT127M">45 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/filmlane-master/rated-series/rated-series-friends.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/movie-16.png" alt="Friends poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="/filmlane-master/rated-series/rated-series-friends.html">
+                    <h3 class="card-title">Friends</h3>
+                  </a>
+
+                  <time datetime="2004">2004</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">10 Seasons</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT131M">22 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TV SERIES
+      -->
+
+      <section class="tv-series">
+        <div class="container">
+
+          <p class="section-subtitle">Best TV Series</p>
+
+          <h2 class="h2 section-title">World Best TV Series</h2>
+
+          <ul class="series-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/series-1.png" alt="Moon Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Moon Knight</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">47 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/series-2.png" alt="Halo movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Halo</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT59M">59 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/series-3.png" alt="Vikings: Valhalla movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Vikings: Valhalla</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">51 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="/filmlane-master/assets/images/series-4.png" alt="Money Heist movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Money Heist</h3>
+                  </a>
+
+                  <time datetime="2017">2017</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT70M">70 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="cta-title">Newsletter</h2>
+
+            <p class="cta-text">
+              Enter your email to signup to my monthly <b>Newsltter</b>.
+            </p>
+          </div>
+
+          <form action="" class="cta-form">
+            <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+
+            <button type="submit" class="cta-form-btn">Get started</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="/filmlane-master/index.html" class="logo">
+            <img src="/filmlane-master/assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="/filmlane-master/index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Movie</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">TV</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">Travis Keane</a>. All Rights Reserved
+        </p>
+
+        <img src="/filmlane-master/assets/images/footer-bottom-img.png" alt="Online banking companies logo" class="footer-bottom-img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/filmlane-master/assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
